@@ -1,0 +1,30 @@
+header,footer{
+    text-align: center;
+    border: solid black;
+    border-radius: 5px;
+}
+h1{
+    font-size: calc(1.5rem + 3vw);
+}
+h2{
+    font-size: calc(1.3rem + 2vw);
+}
+p{
+    font-size: calc(0.5rem + 1vw);
+}
+main{
+    border: solid black;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+}
+nav{
+    border: solid black;
+    border-radius: 5px;
+    height: 100px;
+}
+article{
+    border: solid black;
+    border-radius: 5px;
+}
