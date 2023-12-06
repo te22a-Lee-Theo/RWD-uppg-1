@@ -2,6 +2,7 @@ header,footer{
     text-align: center;
     border: solid black;
     border-radius: 5px;
+    margin-bottom: 7px;
 }
 h1{
     font-size: calc(1.5rem + 3vw);
@@ -15,16 +16,28 @@ p{
 main{
     border: solid black;
     border-radius: 5px;
+    margin-bottom: 7px;
 }
 h2{
     text-align: center;
 }
 nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border: solid black;
     border-radius: 5px;
     height: 100px;
+    margin-bottom: 7px;
 }
 article{
     border: solid black;
     border-radius: 5px;
+    margin: 5px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vw;
 }
